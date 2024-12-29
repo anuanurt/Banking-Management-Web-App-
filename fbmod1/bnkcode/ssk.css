@@ -1,0 +1,85 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.hcon{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ws{
+   font-size: 25px;
+  font-family: monospace;
+   padding-right: 18px;
+}
+.ud{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    
+   
+}
+.ai{
+    font-size: 25px;
+    font-family: monospace;
+     padding-right: 18px;
+    
+}
+header{
+    background-color: rgb(228, 125, 125);
+   height: 7rem;
+    
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+}
+.navitem{
+    display: flex;
+    justify-content: space-around;
+}
+.bal{
+    display: flex;
+    gap: 6px;
+}
+.binfo{
+    font-size: 20px;
+}
+.baln{
+    font-size: 20px;
+}
+.eam{
+    font-size: 20px;
+}
+.uother{
+    display: flex;
+    justify-content: space-around;
+}
+.df{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px 5px;
+    color: whitesmoke;
+}
+.bd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    background-color: lightskyblue;
+}
+.ficon{
+   font-family: monospace;
+    font-size: 25px;
+    box-shadow: 4px 4px 4px 4px white;
+    color:whitesmoke;
+    font-weight: bold;
+}

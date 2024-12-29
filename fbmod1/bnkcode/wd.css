@@ -1,0 +1,101 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+
+.hcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ws{
+   font-size: 25px;
+  font-family: monospace;
+   padding-right: 18px;
+}
+.ud{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    
+   
+}
+.ai{
+    font-size: 25px;
+    font-family: monospace;
+     padding-right: 18px;
+    
+}
+header{
+    background-color: rgb(228, 125, 125);
+   height: 7rem;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.fromele{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    height:20rem;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+input[type="email"]{
+    height: 2.5rem;
+    width: 19rem;
+     border-radius: 2rem;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: monospace;
+}
+input[type="date"]{
+    height: 2.5rem;
+    width: 19rem;
+     border-radius: 2rem;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: monospace;
+}
+input[type="text"]{
+    height: 2.5rem;
+    width: 19rem;
+     border-radius: 2rem;
+     font-size: 20px;
+     font-weight: bold;
+     font-family: monospace;
+}
+label{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: monospace;
+    color: rgb(15, 177, 241);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    box-shadow: 4px 4px 4px 4px skyblue;
+    color: gray;
+}
+input[type="submit"]{
+height: 2rem;
+width: 6rem;
+border-radius: 2rem;
+background-color:rgb(82, 146, 230) ;
+font-weight: bolder;
+}

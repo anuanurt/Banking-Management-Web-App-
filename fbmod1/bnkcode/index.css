@@ -1,0 +1,382 @@
+@media (min-width:1200px){
+body{
+    background-color:whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+.mobhead{
+    display: none;
+}
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    
+}
+.mobcon{
+    display: none;
+}
+.loginbox{
+    
+    height: 24rem;
+    width: 26rem;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 2px 2px 3px 2px rgb(204, 201, 201);
+   padding-top: 30px;
+
+   
+}
+.fb{
+    color: rgb(47, 108, 240);
+    font-size: 4.5rem;
+ 
+    font-weight: lighter;
+    font-weight: bold;
+
+    
+}
+.fcon{
+    font-size: 2rem;
+    display: block;
+
+}
+input[type="text"]{
+    width: 18rem;
+    height: 2.5rem;
+     border-radius:8px;
+     border: 1px rgb(213, 213, 213) solid;
+     
+ }
+ input[type="submit"]{
+    width: 19rem;
+    height: 3rem;
+    background-color: rgb(20, 91, 244);
+    border-radius:8px;
+    border: rgb(236, 236, 236) solid;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+
+ }
+
+ input[type="button"]{
+    background-color: rgb(10, 209, 10);
+    height: 3rem;
+    width: 13rem;
+    border: 1px solid rgb(69, 237, 69);
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+   
+
+ }
+ a{
+    text-decoration: none;
+ }
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+}
+
+
+
+
+/* now width is 992px  */
+/* lets start working  */
+
+
+
+@media(min-width:992px){
+    a{
+        text-decoration: none;
+    }
+    body{
+        background-color:whitesmoke;
+        height: 100%;
+        width: 100%;
+    }
+    .mobhead{
+        display: none;
+    }
+    .parent{
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row-reverse;
+     
+      
+    }
+    .mobcon{
+        display: none;
+    }
+    .loginbox{
+        
+        height: 18rem;
+        width: 19rem;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+        align-items: center;
+        gap: 10px;
+        box-shadow: 2px 2px 3px 2px rgb(204, 201, 201);
+       padding-top: 25px;
+    }
+    .fb{
+        color: rgb(47, 108, 240);
+        font-size: 3.5rem;
+   
+        font-weight: lighter;
+        font-weight: bold;
+        
+    }
+    .fcon{
+        font-size: 1.5rem;
+        display: block;
+      
+    }
+    input[type="text"]{
+        width: 16rem;
+        height: 2.3rem;
+         border-radius:8px;
+         border: 1px rgb(213, 213, 213) solid;
+         
+     }
+     input[type="submit"]{
+        width: 16rem;
+        height: 3rem;
+        background-color: rgb(20, 91, 244);
+        border-radius:8px;
+        border: rgb(236, 236, 236) solid;
+        color: white;
+        font-weight: bolder;
+        font-size: 15px;
+    
+     }
+    
+     input[type="button"]{
+        background-color: rgb(10, 209, 10);
+        height: 3rem;
+        width: 11rem;
+        border: 1px solid rgb(69, 237, 69);
+        border-radius: 8px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+       
+    
+     }
+     .content{
+        display: flex;
+        flex-direction: column;
+        gap: .1875rem;
+        padding-bottom: 80px;
+    }
+    
+    }
+
+    /* 768 starts from here  */
+    /*  lets do it  */
+
+
+
+@media(min-width:768px){
+    a{
+        text-decoration: none;
+    }
+    body{
+        background-color:whitesmoke;
+        height: 100%;
+        width: 100%;
+    }
+    .mobhead{
+        display: none;
+    }
+    .parent{
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row-reverse;
+     
+      
+    }
+    .mobcon{
+        display: none;
+    }
+    .loginbox{
+        
+        height: 18rem;
+        width: 19rem;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+        align-items: center;
+        gap: 10px;
+        box-shadow: 2px 2px 3px 2px rgb(204, 201, 201);
+       padding-top: 25px;
+    }
+    .fb{
+        color: rgb(47, 108, 240);
+        font-size: 3rem;
+   
+        font-weight: lighter;
+        font-weight: bold;
+        
+    }
+    .fcon{
+        font-size: 1.5rem;
+        display: block;
+      
+    }
+    input[type="text"]{
+        width: 16rem;
+        height: 2.3rem;
+         border-radius:8px;
+         border: 1px rgb(213, 213, 213) solid;
+         
+     }
+     input[type="submit"]{
+        width: 16rem;
+        height: 3rem;
+        background-color: rgb(20, 91, 244);
+        border-radius:8px;
+        border: rgb(236, 236, 236) solid;
+        color: white;
+        font-weight: bolder;
+        font-size: 15px;
+    
+     }
+    
+     input[type="button"]{
+        background-color: rgb(10, 209, 10);
+        height: 3rem;
+        width: 11rem;
+        border: 1px solid rgb(69, 237, 69);
+        border-radius: 8px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+       
+    
+     }
+     .content{
+        display: flex;
+        flex-direction: column;
+        gap: .1875rem;
+        padding-bottom: 80px;
+    }
+        }
+
+
+    /* media query for mobile   */
+
+@media(min-width:300px) and (max-width:767px){
+
+        a{
+            text-decoration: none;
+        }
+        body{
+            background-color:whitesmoke;
+            height: 100%;
+            width: 100%;
+        }
+        .mobhead{
+            display: block;
+            font-size: 20px;
+        }
+        .parent{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+         
+          
+        }
+        .mobcon{
+            display: block;
+            color: rgb(47, 108, 240);
+            font-size: 3.5rem;
+            font-weight: bold;
+       
+        }
+        .loginbox{
+            
+            height: 18rem;
+            width: 19rem;
+            background-color:white;
+            display: flex;
+            flex-direction: column;
+            justify-content: first baseline;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 2px 2px 3px 2px rgb(204, 201, 201);
+           padding-top: 25px;
+        }
+        .fb{
+            color: rgb(47, 108, 240);
+            font-size: 3.5rem;
+       
+        
+            font-weight: bold;
+            display: none;
+            
+        }
+        .fcon{
+            font-size: 1.5rem;
+            display: none;
+          
+        }
+        input[type="text"]{
+            width: 16rem;
+            height: 2.3rem;
+             border-radius:8px;
+             border: 1px rgb(213, 213, 213) solid;
+             
+         }
+         input[type="submit"]{
+            width: 16rem;
+            height: 3rem;
+            background-color: rgb(20, 91, 244);
+            border-radius:8px;
+            border: rgb(236, 236, 236) solid;
+            color: white;
+            font-weight: bolder;
+            font-size: 15px;
+        
+         }
+        
+         input[type="button"]{
+            background-color: rgb(10, 209, 10);
+            height: 3rem;
+            width: 11rem;
+            border: 1px solid rgb(69, 237, 69);
+            border-radius: 8px;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+           
+        
+         }
+         .content{
+            display: flex;
+            flex-direction: column;
+            gap: .1875rem;
+            padding-bottom: 80px;
+        }
+    }    

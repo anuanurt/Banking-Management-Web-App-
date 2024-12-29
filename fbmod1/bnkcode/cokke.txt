@@ -1,0 +1,11 @@
+<?php
+$cookie_email = "usermail";
+ // cookie value for storing email 
+$cookie_password = "pass";
+
+
+
+setCookie($cookie_email,$_POST['email'] , time() + (86400 * 30), "/");
+setCookie($cookie_password, $_POST['passw'], time() + (86400 * 30), "/"); // 86400 = 1 day
+
+?>
